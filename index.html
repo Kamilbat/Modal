@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="wrapper">
+<section class="section">
+    <div class="container">
+       <h1 class="section__title">Свяжитесь с нами и уже
+             <b>через 5 минут мы:</b></h1>
+        <div class="section__block">
+            <div class="section__content">
+                <ul class="section__list">
+                    <li>
+                       <span>1.</span>
+                        <p class="section__text"><b>Поможем</b> с выбором
+                        паркета и лака</p>
+                    </li>
+                    <li>
+                       <span>2.</span>
+                        <p class="section__text"><b>Рассчитаем</b>
+                         стоимость</p>
+                    </li>
+                    <li>
+                       <span>3.</span>
+                        <p class="section__text"><b>Ответим</b> на все
+                        вопросы</p>
+                    </li>
+                </ul>
+                <a href="#" class="section__button button">ПОлучить консультацию</a>
+            </div>
+            <div class="section__photo">
+                <div class="section__img">
+                    <img src="assets/images/person.jpg" alt="">
+                </div>
+                <h2 class="section__name">Сергей Корнеев</h2>
+                <h2 class="section__prof">Руководитель проектов</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="modal">
+    <div class="modal__body">
+        <div class="modal__block">
+                <h2 class="modal__title">
+                    Оставить заявку на ремонт
+                </h2>
+                <form action="/" method="post" class="modal__form">
+                    <div class="modal__contacts">
+                        <img src="assets/images/face.jpg" alt="">
+                        <p class="modal__text">Мы перезвоним вам в
+                         течении минуты для
+                          подтверждения заказа</p>
+                    </div>
+
+                    <input required type="tel" placeholder="Ваш телефон" class="modal__input" id="phone">
+
+                    <a href="#" class="modal__button button">жду звонка</a>
+                    <p class="modal__coockies">Заполняя поля формы. Вы даете согласие
+                     на обработку персональных данных </p>
+            </form>
+            <button class="modal__close"></button>
+
+        </div>
+    </div>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
